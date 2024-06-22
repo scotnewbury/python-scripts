@@ -8,9 +8,7 @@ def append_file(directory, filename, text_to_add):
     # Define the full path of the file to be appended
     file_path = os.path.join(directory, filename)
 
-    # Define the full path of the source file of text to be added
-    # append_path = os.path.join(directory, filename)
-    
+    # Open file with text to append    
     append_text = open(text_to_add, 'r')
 
     # Write the text to the file
